@@ -1,0 +1,64 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="pcoded-main-container">
+  <div class="pcoded-content">
+    <div class="row">
+      <div class="col-md-6 col-xl-4">
+        <div class="card bg-c-blue order-card">
+          <div class="card-body">
+            <h6 class="text-white">Tasks</h6>
+            <h2 class="text-end text-white">
+              <i class="feather icon-check-square float-start"></i><span>{{ num_tasks }}</span>
+            </h2>
+            <p class="m-b-0">
+              <a href="{% url 'task:task-list' %}" class="text-white text-decoration-underline">Open list</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xl-4">
+        <div class="card bg-c-green order-card">
+          <div class="card-body">
+            <h6 class="text-white">Workers</h6>
+            <h2 class="text-end text-white">
+              <i class="feather icon-users float-start"></i><span>{{ num_workers }}</span>
+            </h2>
+            <p class="m-b-0">
+              <a href="{% url 'task:worker-list' %}" class="text-white text-decoration-underline">Open list</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xl-4">
+        <div class="card bg-c-yellow order-card">
+          <div class="card-body">
+            <h6 class="text-white">Unique positions</h6>
+            <h2 class="text-end text-white">
+              <i class="feather icon-briefcase float-start"></i><span>{{ num_positions }}</span>
+            </h2>
+            <p class="m-b-0">
+              <a href="{% url 'task:position-list' %}" class="text-white text-decoration-underline">Open list</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body">
+            <span class="text-muted">Visits this session:</span> {{ num_visits }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

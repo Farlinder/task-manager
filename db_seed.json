@@ -1,0 +1,1646 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 3,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 3,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 3,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 3,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 2,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 2,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 2,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 2,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add position",
+    "content_type": 6,
+    "codename": "add_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change position",
+    "content_type": 6,
+    "codename": "change_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete position",
+    "content_type": 6,
+    "codename": "delete_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view position",
+    "content_type": 6,
+    "codename": "view_position"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add task type",
+    "content_type": 8,
+    "codename": "add_tasktype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change task type",
+    "content_type": 8,
+    "codename": "change_tasktype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete task type",
+    "content_type": 8,
+    "codename": "delete_tasktype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view task type",
+    "content_type": 8,
+    "codename": "view_tasktype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_worker"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_worker"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_worker"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_worker"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add task",
+    "content_type": 7,
+    "codename": "add_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change task",
+    "content_type": 7,
+    "codename": "change_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete task",
+    "content_type": 7,
+    "codename": "delete_task"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view task",
+    "content_type": 7,
+    "codename": "view_task"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "task",
+    "model": "position"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "task",
+    "model": "task"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "task",
+    "model": "tasktype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "task",
+    "model": "worker"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z0trp8hl8orgm3ezaqcfq381bbe6sdhi",
+  "fields": {
+    "session_data": ".eJxVjDkOwyAUBe9CHSEWA8Flep8BfbZAFpAMpIly99iSi6R9M2_eyMDoyYwWVpM9mhFn6PQ7WnD3UHbib1CuFbta-pot3hV80IaX6sPjcrh_gQQtbe9gtVJUR84VUBeJFVw7SpjmQmhB5ASSSXUmKjBpfeQxekWdpJMFAB3FFi3jaV655d7QTD9fVdU82g:1wSJ1n:__sLjZN8-zFcuUcVepw-0HUTdk7CDkfH1kP7gGkCSwg",
+    "expire_date": "2026-06-10T18:30:51.757Z"
+  }
+},
+{
+  "model": "task.tasktype",
+  "pk": 11,
+  "fields": {
+    "name": "Bug"
+  }
+},
+{
+  "model": "task.tasktype",
+  "pk": 12,
+  "fields": {
+    "name": "New feature"
+  }
+},
+{
+  "model": "task.tasktype",
+  "pk": 13,
+  "fields": {
+    "name": "Breaking change"
+  }
+},
+{
+  "model": "task.tasktype",
+  "pk": 14,
+  "fields": {
+    "name": "Refactoring"
+  }
+},
+{
+  "model": "task.tasktype",
+  "pk": 15,
+  "fields": {
+    "name": "QA"
+  }
+},
+{
+  "model": "task.position",
+  "pk": 11,
+  "fields": {
+    "name": "Developer"
+  }
+},
+{
+  "model": "task.position",
+  "pk": 12,
+  "fields": {
+    "name": "Project Manager"
+  }
+},
+{
+  "model": "task.position",
+  "pk": 13,
+  "fields": {
+    "name": "QA"
+  }
+},
+{
+  "model": "task.position",
+  "pk": 14,
+  "fields": {
+    "name": "Designer"
+  }
+},
+{
+  "model": "task.position",
+  "pk": 15,
+  "fields": {
+    "name": "DevOps"
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 32,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$f4ndBdkUTdhAYd4Hx4P1sy$5eefvWgAfyRAEtMMGyNvMM+ZOzc9Z/+uIaD6UhlmDw0=",
+    "last_login": "2026-05-27T18:30:51.724Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Admin",
+    "last_name": "User",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:35.441Z",
+    "position": 12,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 33,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$7nyt2Rjz34UjsglQTn4V8k$MlYbkK9lavO+z5LyNGOgdspJ1ROTSKu7dyVnuNuv4+E=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "Alice",
+    "last_name": "Brown",
+    "email": "user1@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:36.536Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 34,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$5RyhJRggjXBKgz9dvlvxmG$SOjdAv1lxmUkmUjYEmnnf0tuQGHBpxifGyYowBBimXY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "Bob",
+    "last_name": "Stone",
+    "email": "user2@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:37.580Z",
+    "position": 13,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 35,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$2nvKrRyrNsDtl7GJugh0Wr$4b+RLDiBt+c/aHj27UTI15ofBootGpyYBuILquxTHLM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user3",
+    "first_name": "Carol",
+    "last_name": "Miller",
+    "email": "user3@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:38.894Z",
+    "position": 14,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 36,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$KILhKi0yZ4qC1i2r9M3Ymq$TosmteQ+bHxI5RRTLI02WmHrRDdqJ8ZPbrjQwei5cOo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user4",
+    "first_name": "Dave",
+    "last_name": "Wilson",
+    "email": "user4@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:39.967Z",
+    "position": 15,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 37,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$Jf1pcQjJn4sTK13Q9W8woy$Ui1pTmbWo1MiSX+BcLnjPu9lI/yFf/mOzsSeUANIw4k=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user5",
+    "first_name": "Eve",
+    "last_name": "Taylor",
+    "email": "user5@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:41.097Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 38,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$IxnX4AeOYUekDSz8959V0W$+Uw4OjXkkwu/Wr4fNKW9W5pwqpoROdN179l3FoqHvLE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user6",
+    "first_name": "Frank",
+    "last_name": "Anderson",
+    "email": "user6@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:42.279Z",
+    "position": 13,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 39,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$lTmoSM1f1udT7PyLNH7TfF$JksT5l/vXgkE7wQEjd5+IX6QGnKZNVPt9dE1pwfeteU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user7",
+    "first_name": "Grace",
+    "last_name": "Thomas",
+    "email": "user7@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:43.352Z",
+    "position": 14,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 40,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$ZKOIUmi1KtSygTFJtDdZ1m$iekOV91pB+x/cnClMDe63uNWopRVvfcT3vswijK6ogM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user8",
+    "first_name": "Heidi",
+    "last_name": "Jackson",
+    "email": "user8@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:44.405Z",
+    "position": 15,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 41,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$yLiDzvE3vqvjM6uRzlVnh1$NPJBgJvs3YsRq5I5Hb64J9O1HH7xqlT8upWptLCD3RY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user9",
+    "first_name": "Ivan",
+    "last_name": "White",
+    "email": "user9@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:45.506Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 42,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$bj5riexHJg8sM252XaoXf2$daLXU8YS2E+KD4UxcYiN5s0HG8EccI6RO42OcjsNg4s=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user10",
+    "first_name": "Judy",
+    "last_name": "Harris",
+    "email": "user10@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:46.747Z",
+    "position": 13,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 43,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$O2N02GTjFs7ou6JQLatvC3$U7A4sAqxYEHY2u1ghWkoEG7fT5V0JNJDC4RrIBEuR1k=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user11",
+    "first_name": "Alice",
+    "last_name": "Brown",
+    "email": "user11@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:47.965Z",
+    "position": 14,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 44,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$RzT7qLAVX56thTcY6l6iML$/c8cQ842PKBNRnb3OUnuIL7RIr7LNENaN2RTwHvKa00=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user12",
+    "first_name": "Bob",
+    "last_name": "Stone",
+    "email": "user12@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:49.065Z",
+    "position": 15,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 45,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$jbiOUN8U978p8SEkLvTaO3$j4G6jmWHC1jn3z7fCdF4jaH15TOHxi87zK5uPdjFfXE=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user13",
+    "first_name": "Carol",
+    "last_name": "Miller",
+    "email": "user13@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:50.197Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 46,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$SQvL8G3vR9VLPBOHD8fxDf$0kEdeXZ2ZgIh3Z7dFvGlgBMt+bhRFk2dhb3qZgR4Bto=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user14",
+    "first_name": "Dave",
+    "last_name": "Wilson",
+    "email": "user14@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:51.297Z",
+    "position": 13,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 47,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$931FMtqQdXqQ7ATZWK2AnM$VwVCdFza14NtpZt5Y3l2BqHAEcPCjQyixZdlf61pcTo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user15",
+    "first_name": "Eve",
+    "last_name": "Taylor",
+    "email": "user15@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:52.466Z",
+    "position": 14,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 48,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$V1gvoQfSbiN0XNJBMwuR6T$iuhpAR2IDxwQ2aCbxaZTBdQ9Uyr4UhZyK2EEbeFqepo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user16",
+    "first_name": "Frank",
+    "last_name": "Anderson",
+    "email": "user16@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:53.685Z",
+    "position": 15,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 49,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$2i4Qoz1m65GnMOjezPYpGC$sWHapFlWupEN11tb3EUsUAtgeWuTKznt/gagBQadi+o=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user17",
+    "first_name": "Grace",
+    "last_name": "Thomas",
+    "email": "user17@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:54.856Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 50,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$e3rGx0b4FvNgUjLaMiHWq8$N0ANPKtUBlQVN/qHo7a7qzgyZ+/RHZlRBwZ03fF9osM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user18",
+    "first_name": "Heidi",
+    "last_name": "Jackson",
+    "email": "user18@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:56.115Z",
+    "position": 13,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 51,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$cnLMS6GNhqr4ZQMFmgY9aq$+8RXDFb4yvXzwGLJsfusEaIUgPjJRKDBnFg+73u7VMA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user19",
+    "first_name": "Ivan",
+    "last_name": "White",
+    "email": "user19@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:57.322Z",
+    "position": 14,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 52,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$hWU152ABlJZISLwBXikdrM$K6ie3u+M7mzV7LqetIBNkKlGTnOJ8bAi0qWOm7Oneh8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user20",
+    "first_name": "Judy",
+    "last_name": "Harris",
+    "email": "user20@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:24:58.983Z",
+    "position": 15,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 53,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$2W3UlRDbY58txFZTJXe77d$0G/3NNHc18b7GM/I6kC+11Zw4zh4rmUMWS0PAx94ODc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user21",
+    "first_name": "Alice",
+    "last_name": "Brown",
+    "email": "user21@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:25:00.262Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 54,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$hx2qCl35hnC9NaW4ATBdXD$i1XssAOAgsuFoFK2iuhRYiuTWl2mMc7r6vwvjl/Dww0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user22",
+    "first_name": "Bob",
+    "last_name": "Stone",
+    "email": "user22@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:25:01.459Z",
+    "position": 13,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 55,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$xFnwXnlhnhMiewaVjlrr62$e2ZSZOd2v4mYLENnD3+efbxEcI2smdwZ6dQeHkVbB6Q=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user23",
+    "first_name": "Carol",
+    "last_name": "Miller",
+    "email": "user23@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:25:02.486Z",
+    "position": 14,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 56,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$TPgPvyWeEH31yNtBrHIUHm$UKlHgqR9DOzj4o6g18SiYcsR4sCGxdsbjmHGvJfj1hI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user24",
+    "first_name": "Dave",
+    "last_name": "Wilson",
+    "email": "user24@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:25:04.150Z",
+    "position": 15,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.worker",
+  "pk": 57,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$GiXQqgTKLBwy9ePMIqlNwb$1rliPH48PFT3YvEiR56uImsBCvcfHTi+ub0ALrYJTdI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user25",
+    "first_name": "Eve",
+    "last_name": "Taylor",
+    "email": "user25@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-27T18:25:05.127Z",
+    "position": 11,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "task.task",
+  "pk": 45,
+  "fields": {
+    "name": "Task #1: Bug",
+    "description": "Autogenerated sample task number 1.",
+    "deadline": "2026-05-29T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 11,
+    "assignees": [
+      32,
+      33
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 46,
+  "fields": {
+    "name": "Task #2: New feature",
+    "description": "Autogenerated sample task number 2.",
+    "deadline": "2026-05-30T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 12,
+    "assignees": [
+      32,
+      34,
+      35
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 47,
+  "fields": {
+    "name": "Task #3: Breaking change",
+    "description": "Autogenerated sample task number 3.",
+    "deadline": "2026-05-31T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 13,
+    "assignees": [
+      32,
+      36,
+      37
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 48,
+  "fields": {
+    "name": "Task #4: Refactoring",
+    "description": "Autogenerated sample task number 4.",
+    "deadline": "2026-06-01T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 14,
+    "assignees": [
+      32,
+      38,
+      39
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 49,
+  "fields": {
+    "name": "Task #5: QA",
+    "description": "Autogenerated sample task number 5.",
+    "deadline": "2026-06-02T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 15,
+    "assignees": [
+      32,
+      40,
+      41
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 50,
+  "fields": {
+    "name": "Task #6: Bug",
+    "description": "Autogenerated sample task number 6.",
+    "deadline": "2026-06-03T18:25:06.117Z",
+    "is_completed": true,
+    "priority": "HIGH",
+    "task_type": 11,
+    "assignees": [
+      32,
+      42,
+      43
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 51,
+  "fields": {
+    "name": "Task #7: New feature",
+    "description": "Autogenerated sample task number 7.",
+    "deadline": "2026-06-04T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 12,
+    "assignees": [
+      32,
+      44,
+      45
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 52,
+  "fields": {
+    "name": "Task #8: Breaking change",
+    "description": "Autogenerated sample task number 8.",
+    "deadline": "2026-06-05T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 13,
+    "assignees": [
+      32,
+      46,
+      47
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 53,
+  "fields": {
+    "name": "Task #9: Refactoring",
+    "description": "Autogenerated sample task number 9.",
+    "deadline": "2026-06-06T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 14,
+    "assignees": [
+      32,
+      48,
+      49
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 54,
+  "fields": {
+    "name": "Task #10: QA",
+    "description": "Autogenerated sample task number 10.",
+    "deadline": "2026-06-07T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 15,
+    "assignees": [
+      32,
+      50,
+      51
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 55,
+  "fields": {
+    "name": "Task #11: Bug",
+    "description": "Autogenerated sample task number 11.",
+    "deadline": "2026-06-08T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 11,
+    "assignees": [
+      32,
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 56,
+  "fields": {
+    "name": "Task #12: New feature",
+    "description": "Autogenerated sample task number 12.",
+    "deadline": "2026-06-09T18:25:06.117Z",
+    "is_completed": true,
+    "priority": "LOW",
+    "task_type": 12,
+    "assignees": [
+      32,
+      54,
+      55
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 57,
+  "fields": {
+    "name": "Task #13: Breaking change",
+    "description": "Autogenerated sample task number 13.",
+    "deadline": "2026-06-10T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 13,
+    "assignees": [
+      32,
+      56,
+      57
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 58,
+  "fields": {
+    "name": "Task #14: Refactoring",
+    "description": "Autogenerated sample task number 14.",
+    "deadline": "2026-05-28T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 14,
+    "assignees": [
+      32,
+      33
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 59,
+  "fields": {
+    "name": "Task #15: QA",
+    "description": "Autogenerated sample task number 15.",
+    "deadline": "2026-05-29T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 15,
+    "assignees": [
+      32,
+      34,
+      35
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 60,
+  "fields": {
+    "name": "Task #16: Bug",
+    "description": "Autogenerated sample task number 16.",
+    "deadline": "2026-05-30T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 11,
+    "assignees": [
+      32,
+      36,
+      37
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 61,
+  "fields": {
+    "name": "Task #17: New feature",
+    "description": "Autogenerated sample task number 17.",
+    "deadline": "2026-05-31T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 12,
+    "assignees": [
+      32,
+      38,
+      39
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 62,
+  "fields": {
+    "name": "Task #18: Breaking change",
+    "description": "Autogenerated sample task number 18.",
+    "deadline": "2026-06-01T18:25:06.117Z",
+    "is_completed": true,
+    "priority": "HIGH",
+    "task_type": 13,
+    "assignees": [
+      32,
+      40,
+      41
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 63,
+  "fields": {
+    "name": "Task #19: Refactoring",
+    "description": "Autogenerated sample task number 19.",
+    "deadline": "2026-06-02T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 14,
+    "assignees": [
+      32,
+      42,
+      43
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 64,
+  "fields": {
+    "name": "Task #20: QA",
+    "description": "Autogenerated sample task number 20.",
+    "deadline": "2026-06-03T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 15,
+    "assignees": [
+      32,
+      44,
+      45
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 65,
+  "fields": {
+    "name": "Task #21: Bug",
+    "description": "Autogenerated sample task number 21.",
+    "deadline": "2026-06-04T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 11,
+    "assignees": [
+      32,
+      46,
+      47
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 66,
+  "fields": {
+    "name": "Task #22: New feature",
+    "description": "Autogenerated sample task number 22.",
+    "deadline": "2026-06-05T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 12,
+    "assignees": [
+      32,
+      48,
+      49
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 67,
+  "fields": {
+    "name": "Task #23: Breaking change",
+    "description": "Autogenerated sample task number 23.",
+    "deadline": "2026-06-06T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 13,
+    "assignees": [
+      32,
+      50,
+      51
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 68,
+  "fields": {
+    "name": "Task #24: Refactoring",
+    "description": "Autogenerated sample task number 24.",
+    "deadline": "2026-06-07T18:25:06.117Z",
+    "is_completed": true,
+    "priority": "LOW",
+    "task_type": 14,
+    "assignees": [
+      32,
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 69,
+  "fields": {
+    "name": "Task #25: QA",
+    "description": "Autogenerated sample task number 25.",
+    "deadline": "2026-06-08T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 15,
+    "assignees": [
+      32,
+      54,
+      55
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 70,
+  "fields": {
+    "name": "Task #26: Bug",
+    "description": "Autogenerated sample task number 26.",
+    "deadline": "2026-06-09T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 11,
+    "assignees": [
+      32,
+      56,
+      57
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 71,
+  "fields": {
+    "name": "Task #27: New feature",
+    "description": "Autogenerated sample task number 27.",
+    "deadline": "2026-06-10T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 12,
+    "assignees": [
+      32,
+      33
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 72,
+  "fields": {
+    "name": "Task #28: Breaking change",
+    "description": "Autogenerated sample task number 28.",
+    "deadline": "2026-05-28T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 13,
+    "assignees": [
+      32,
+      34,
+      35
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 73,
+  "fields": {
+    "name": "Task #29: Refactoring",
+    "description": "Autogenerated sample task number 29.",
+    "deadline": "2026-05-29T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 14,
+    "assignees": [
+      32,
+      36,
+      37
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 74,
+  "fields": {
+    "name": "Task #30: QA",
+    "description": "Autogenerated sample task number 30.",
+    "deadline": "2026-05-30T18:25:06.117Z",
+    "is_completed": true,
+    "priority": "HIGH",
+    "task_type": 15,
+    "assignees": [
+      32,
+      38,
+      39
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 75,
+  "fields": {
+    "name": "Task #31: Bug",
+    "description": "Autogenerated sample task number 31.",
+    "deadline": "2026-05-31T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 11,
+    "assignees": [
+      32,
+      40,
+      41
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 76,
+  "fields": {
+    "name": "Task #32: New feature",
+    "description": "Autogenerated sample task number 32.",
+    "deadline": "2026-06-01T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 12,
+    "assignees": [
+      32,
+      42,
+      43
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 77,
+  "fields": {
+    "name": "Task #33: Breaking change",
+    "description": "Autogenerated sample task number 33.",
+    "deadline": "2026-06-02T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 13,
+    "assignees": [
+      32,
+      44,
+      45
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 78,
+  "fields": {
+    "name": "Task #34: Refactoring",
+    "description": "Autogenerated sample task number 34.",
+    "deadline": "2026-06-03T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 14,
+    "assignees": [
+      32,
+      46,
+      47
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 79,
+  "fields": {
+    "name": "Task #35: QA",
+    "description": "Autogenerated sample task number 35.",
+    "deadline": "2026-06-04T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 15,
+    "assignees": [
+      32,
+      48,
+      49
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 80,
+  "fields": {
+    "name": "Task #36: Bug",
+    "description": "Autogenerated sample task number 36.",
+    "deadline": "2026-06-05T18:25:06.117Z",
+    "is_completed": true,
+    "priority": "LOW",
+    "task_type": 11,
+    "assignees": [
+      32,
+      50,
+      51
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 81,
+  "fields": {
+    "name": "Task #37: New feature",
+    "description": "Autogenerated sample task number 37.",
+    "deadline": "2026-06-06T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "URGENT",
+    "task_type": 12,
+    "assignees": [
+      32,
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 82,
+  "fields": {
+    "name": "Task #38: Breaking change",
+    "description": "Autogenerated sample task number 38.",
+    "deadline": "2026-06-07T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "HIGH",
+    "task_type": 13,
+    "assignees": [
+      32,
+      54,
+      55
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 83,
+  "fields": {
+    "name": "Task #39: Refactoring",
+    "description": "Autogenerated sample task number 39.",
+    "deadline": "2026-06-08T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "MEDIUM",
+    "task_type": 14,
+    "assignees": [
+      32,
+      56,
+      57
+    ]
+  }
+},
+{
+  "model": "task.task",
+  "pk": 84,
+  "fields": {
+    "name": "Task #40: QA",
+    "description": "Autogenerated sample task number 40.",
+    "deadline": "2026-06-09T18:25:06.117Z",
+    "is_completed": false,
+    "priority": "LOW",
+    "task_type": 15,
+    "assignees": [
+      32,
+      33
+    ]
+  }
+}
+]

@@ -1,0 +1,63 @@
+{% extends "layouts/base-fullscreen.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+  <div class="auth-wrapper">
+    <div class="auth-content">
+      <div class="card">
+        <div class="row align-items-center text-center">
+          <div class="col-md-12">
+            <div class="card-body">
+              <h4 class="mb-3 f-w-400">Sign In</h4>
+
+              {% if form.errors %}
+                <div class="text-danger small mb-3">Invalid username or password.</div>
+              {% endif %}
+
+              <form method="post">
+                {% csrf_token %}
+
+                <div class="input-group mb-3">
+                  <span class="input-group-text"><i class="feather icon-user"></i></span>
+                  <input
+                    type="text"
+                    name="{{ form.username.html_name }}"
+                    value="{{ form.username.value|default_if_none:'' }}"
+                    class="form-control"
+                    placeholder="Username"
+                    autofocus
+                    required
+                    id="{{ form.username.id_for_label }}"
+                  >
+                </div>
+
+                <div class="input-group mb-4">
+                  <span class="input-group-text"><i class="feather icon-lock"></i></span>
+                  <input
+                    type="password"
+                    name="{{ form.password.html_name }}"
+                    class="form-control"
+                    placeholder="Password"
+                    required
+                    id="{{ form.password.id_for_label }}"
+                  >
+                </div>
+
+                {% if next %}
+                  <input type="hidden" name="next" value="{{ next }}">
+                {% endif %}
+
+                <button type="submit" class="btn btn-block btn-primary mt-2 mb-2">Sign In</button>
+              </form>
+
+              <p class="mb-0 text-muted">Ask your administrator to create an account for you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
+
+{% block javascripts %}{% endblock javascripts %}
