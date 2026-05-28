@@ -1,0 +1,83 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Task{% endblock %}
+
+{% block content %}
+<div class="pcoded-main-container">
+  <div class="pcoded-content">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-header d-flex align-items-center justify-content-between">
+            <h5 class="mb-0">{{ task.name }}</h5>
+            <div class="d-flex gap-2">
+              <a href="{% url 'task:task-update' pk=task.id %}" class="btn btn-secondary btn-sm">Update</a>
+              <a href="{% url 'task:task-delete' pk=task.id %}" class="btn btn-danger btn-sm">Delete</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-8">
+                <p class="mb-2"><span class="text-muted">Description:</span></p>
+                <p>{{ task.description }}</p>
+              </div>
+              <div class="col-md-4">
+                <ul class="list-unstyled mb-0">
+                  <li><span class="text-muted">Type:</span> {{ task.task_type.name }}</li>
+                  <li><span class="text-muted">Priority:</span> {{ task.get_priority_display }}</li>
+                  <li><span class="text-muted">Deadline:</span> {{ task.deadline|date:"Y-m-d H:i" }}</li>
+                  <li><span class="text-muted">Status:</span> {% if task.is_completed %}Completed{% else %}In progress{% endif %}</li>
+                </ul>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="d-flex align-items-center justify-content-between">
+              <h6 class="mb-0">Assignees</h6>
+              <form method="post" action="{% url 'task:toggle-task-assign' pk=task.id %}">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-primary btn-sm">
+                  {% if request.user in task.assignees.all %}
+                    Unassign me
+                  {% else %}
+                    Assign me
+                  {% endif %}
+                </button>
+              </form>
+            </div>
+
+            <div class="table-responsive mt-3">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Username</th>
+                    <th>Position</th>
+                    <th>Email</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for worker in task.assignees.all %}
+                    <tr>
+                      <td><a href="{% url 'task:worker-detail' pk=worker.id %}">{{ worker.username }}</a></td>
+                      <td>{{ worker.position.name }}</td>
+                      <td>{{ worker.email|default:"—" }}</td>
+                    </tr>
+                  {% empty %}
+                    <tr>
+                      <td colspan="3" class="text-muted">No assignees yet.</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+
+            <a href="{% url 'task:task-list' %}" class="btn btn-link p-0">Back to list</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

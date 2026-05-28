@@ -1,0 +1,28 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}Delete{% endblock %}
+
+{% block content %}
+<div class="pcoded-main-container">
+  <div class="pcoded-content">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="mb-0">Confirm delete</h5>
+          </div>
+          <div class="card-body">
+            <p>Are you sure you want to delete <strong>{{ object }}</strong>?</p>
+            <form method="post" class="d-flex gap-2">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-danger">Delete</button>
+              <a href="javascript:history.back()" class="btn btn-secondary">Cancel</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
